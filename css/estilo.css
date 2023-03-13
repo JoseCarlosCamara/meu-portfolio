@@ -109,8 +109,30 @@ a{
 a:hover{
     color: blue;
 }
-
 /*Fim Links*/
+
+/*Trabalhos*/
+
+div#conteudo .janelaTrabalhos section{
+    display: inline-block;
+    background-color: #b0e0e6;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0;
+}
+.janelaTrabalhos section:hover{
+    scale: 1.05;
+}
+
+.janelaTrabalhos section span{
+    background-color: mediumslateblue;
+    width: 100%;
+    padding: 5px 10px 15px 10px;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+/*Fim trabalhos*/
 
 /*Fim Conteudo*/
 
