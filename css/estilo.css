@@ -119,17 +119,24 @@ div#conteudo .janelaTrabalhos section{
     text-align: center;
     margin: 10px 5px;
     padding: 0;
-}
-.janelaTrabalhos section:hover{
-    scale: 1.05;
+    width: 200px;
+    border-radius: 0;
 }
 
 .janelaTrabalhos section span{
     background-color: mediumslateblue;
-    width: 100%;
-    padding: 5px 10px 15px 10px;
+    padding: 5px 0 15px 0;
     color: white;
-    border-radius: 0 0 10px 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.imagemTrabalho img{
+    transition: all 0.25s ease-in-out;
+}
+
+.janelaTrabalhos a:hover img{
+    transform: scale(1.20);
 }
 
 /*Fim trabalhos*/
